@@ -3,7 +3,7 @@ import { FilledButton, OutlinedButton } from "./Button";
 
 export default function Navbar() {
   return (
-    <nav className="border-b sticky top-0 bg-primary-900 text-primary-100 border-primary-800 z-10">
+    <nav className="border-b sticky top-0 bg-primary text-cherrie border-secondary z-10">
       <div className="h-14 max-w-7xl p-4 mx-auto flex items-center justify-between">
         {/* justify-between on the items inside of the div: <a> and <ul> these are the children */}
         {/* That is why the big cherrie's blog is to the left and the rest of the list is to the right */}
