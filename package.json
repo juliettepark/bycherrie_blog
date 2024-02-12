@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alpinejs/intersect": "^3.13.5",
     "@portabletext/react": "^3.0.11",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.23.4",
+    "alpinejs": "^3.13.5",
     "date-fns": "^3.0.6",
     "next": "14.0.4",
     "next-sanity": "^7.0.5",
@@ -20,6 +22,7 @@
     "sanity": "^3.23.4"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",

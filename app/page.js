@@ -9,6 +9,7 @@ Any other non-special file can have as many "export"s and still 1 "export defaul
 
 import Container from "./components/Container";
 import SectionHeader from "./components/SectionHeader";
+import HomeTitle from "./components/HomeTitle";
 
 function Person({ person }) {
   return (
@@ -52,26 +53,27 @@ function Person({ person }) {
 }
 
 export default function Home() {
-  const person = {
-    name: "JOhn",
-    age: 19,
-    hobbies: ["reading", "hiking", "coding", "crocheting"],
-    address: {
-      street: "123 Main St",
-      city: "New York",
-      state: "NY",
-      zip: "10001",
-    },
-    contact: {
-      email: "john@email.com",
-      phone: "123-456-9000",
-    },
-    isMarried: false,
-  };
+  // const person = {
+  //   name: "JOhn",
+  //   age: 19,
+  //   hobbies: ["reading", "hiking", "coding", "crocheting"],
+  //   address: {
+  //     street: "123 Main St",
+  //     city: "New York",
+  //     state: "NY",
+  //     zip: "10001",
+  //   },
+  //   contact: {
+  //     email: "john@email.com",
+  //     phone: "123-456-9000",
+  //   },
+  //   isMarried: false,
+  // };
 
   return (
     <Container>
-      <Person person={person} />
+      {/* <Person person={person} /> */}
+      <HomeTitle />
     </Container>
   );
 }

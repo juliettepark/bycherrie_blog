@@ -1,6 +1,8 @@
-export function FilledButton({ children }) {
+export function FilledButton({ children, style }) {
   return (
-    <DefaultButton style="bg-secondary-700 border-secondary-700 text-secondary-100 md:hover:bg-secondary-900 md:hover:border-secondary-900 md:hover:text-secondary-300">
+    <DefaultButton
+      style={`bg-cherrie border-secondary text-primary md:hover:bg-transparent md:hover:border-cherrie md:hover:text-cherrie ${style}`}
+    >
       {children}
     </DefaultButton>
   );
@@ -18,7 +20,7 @@ export function DefaultButton({ children, style }) {
   return (
     // put with backticks so that we can pass in styles from other buttons
     <button
-      className={`inline font-medium bg-transparent border rounded-full md:px-4 px-3.5 md:py-2 py-1.5 md:text-base text-sm transition-colors ${style}`}
+      className={`inline font-medium border rounded-full md:px-4 px-3.5 md:py-2 py-1.5 md:text-base text-sm transition-colors ${style}`}
     >
       {children}
     </button>
