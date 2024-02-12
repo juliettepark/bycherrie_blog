@@ -14,7 +14,7 @@ export default function HomeTitle() {
           <br />
           for project inspiration or just some cozy vibes.
         </p>
-        <FilledButton style="w-32 h-16">
+        <FilledButton>
           <Link href="/blog">Let's Yarn</Link>
         </FilledButton>
       </div>

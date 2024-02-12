@@ -1,8 +1,6 @@
-export function FilledButton({ children, style }) {
+export function FilledButton({ children }) {
   return (
-    <DefaultButton
-      style={`bg-cherrie border-secondary text-primary md:hover:bg-transparent md:hover:border-cherrie md:hover:text-cherrie ${style}`}
-    >
+    <DefaultButton style="bg-cherrie border-secondary text-primary md:hover:bg-transparent md:hover:border-cherrie md:hover:text-cherrie">
       {children}
     </DefaultButton>
   );
