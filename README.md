@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) personal project to practice and learn new web development technologies.
 
-## Getting Started
+## About bycherrie blog
+This is a blog to display my newest crochet projects built with Next.js, Sanity.io, and Tailwind.css.
 
-First, run the development server:
+It's main feature is to use dynamic routing to automatically create new blog pages whenever the CMS is updated with a blog post.
+I hope you enjoy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This website was created to practice and learn:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `Next.js`
+- `Sanity` as a headless CMS, including configuration, creating schemas, and `GROQ` queries
+- `Tailwind CSS` to style responsive components
+- Dynamic routing to automatically create new blog pages
+- Working with `JSON` data and fetching data from a server
+- `React` Components
+- Deployment on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Please view the website here: [bycherrie blog](https://bycherrie-blog.vercel.app)
 
-## Learn More
+## Sources
 
-To learn more about Next.js, take a look at the following resources:
+I used the following resources to learn about Next.js and Tailwind:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [rtsh.space](https://md.rtsh.space) - a series of incredible workshops made by a good friend
+- Heavy Googling and searching on Stack Overflow
+- [Tailwind CSS Tutorial](https://youtu.be/pfaSUYaSgRo?si=LQOVA0ErqMixviKq) - a great guide to Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
