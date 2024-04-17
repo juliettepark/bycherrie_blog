@@ -5,14 +5,6 @@ import Container from "../components/Container";
 export const revalidate = 60;
 
 async function getBlogPosts() {
-  // const query = `*[_type == "blogPost"] {description}`;
-  // const query = `*[_type == "blogPost"] {
-  //   title,
-  //   description,
-  //   date,
-  //   "slug":slug.current,
-  //   image
-  // }`;
   const query = `*[_type == "blogPost"] | order(date desc) {
     title,
     description,

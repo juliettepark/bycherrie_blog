@@ -16,20 +16,20 @@ export default function BlogPostCard({ post }) {
       href={`/blog/${post.slug}`}
       className="space-y-4 md:hover:opacity-75 transition-opacity"
     >
-      {/* <Image
+      <Image
         src={urlFor(post.image).auto("format").size(1920, 1080).url()}
         width={1920}
         height={1080}
         alt={post.title}
         className="rounded-2xl border border-primary"
-      /> */}
-      <img
+      />
+      {/* <img
         src={urlFor(post.image).auto("format").size(1920, 1080).url()}
         width={1920}
         height={1080}
         alt={post.title}
         className="rounded-2xl border border-cherrie"
-      />
+      /> */}
       <div className="space-y-2">
         <DatePill date={post.date} />
         <div>

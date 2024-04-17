@@ -14,9 +14,16 @@ export default function HomeTitle() {
           <br />
           for project inspiration or just some cozy vibes.
         </p>
-        <FilledButton>
+        {/* Button was lagging or sometimes not responding when we wrapped a <button> around the <Link> */}
+        <Link
+          className="inline font-medium border rounded-full md:px-4 px-3.5 md:py-2 py-1.5 md:text-base text-sm transition-colors bg-cherrie border-secondary text-primary md:hover:bg-transparent md:hover:border-cherrie md:hover:text-cherrie"
+          href="/blog"
+        >
+          Let's Yarn
+        </Link>
+        {/* <FilledButton>
           <Link href="/blog">Let's Yarn</Link>
-        </FilledButton>
+        </FilledButton> */}
       </div>
 
       <img src="/wool.png" className="h-2/5 w-2/5 mt-48 mb-48" />

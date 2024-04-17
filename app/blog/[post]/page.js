@@ -47,15 +47,25 @@ function ImageComponent({ value }) {
     //     aspectRatio: width / height,
     //   }}
     // />
-    <img
-      src={urlFor(value).auto("format").size(width, height).url()}
+    <Image
+      src={urlFor(value).fit("max").auto("format").url()}
       width={width}
       height={height}
-      alt={value.title}
       loading="lazy"
       className="mx-auto md:max-w-prose rounded-lg"
-      style={{ aspectRatio: width / height }}
+      style={{
+        aspectRatio: width / height,
+      }}
     />
+    // <img
+    //   src={urlFor(value).auto("format").size(width, height).url()}
+    //   width={width}
+    //   height={height}
+    //   alt={value.title}
+    //   loading="lazy"
+    //   className="mx-auto md:max-w-prose rounded-lg"
+    //   style={{ aspectRatio: width / height }}
+    // />
   );
 }
 
